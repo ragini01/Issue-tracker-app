@@ -5,8 +5,11 @@ The objective of this project is to design and implement a Client/Server applica
 MEAN stack
 
 MongoDB—MongoDB used as the database to store the data for the stories and tasks. The data model include collections for stories and tasks, with fields for the story/task name, status, estimate, actual time spent, and other relevant information.
+
 Express.js—Express.js used to create the server-side API to handle incoming requests from the client, process the data, and send real-time updates back to the client. The API include endpoints to create a new story, get a list of open stories, get real-time updates on story/task processing status, and other relevant functionalities.
+
 Angular—Angular used to create the client-side interface to display the data and receive real-time updates. The interface includes a dashboard to display the real-time statistics, a form to create new stories, and other relevant functionalities.
+
 Node.js—Node.js used to run the server-side code and handle incoming requests from the client.
 
 
