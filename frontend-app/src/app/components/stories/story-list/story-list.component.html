@@ -1,0 +1,37 @@
+<h2>Stories</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Status</th>
+      <th>Tasks</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let story of stories">
+      <td>{{ story.title }}</td>
+      <td>{{ story.description }}</td>
+      <td>{{ story.status }}</td>
+      <td>
+        <table>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Description</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let task of tasks">
+              <td>{{ task._id }}</td>
+              <td>{{ task.title }}</td>
+              <td>{{ task.description }}</td>
+              <td>{{ task.status }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
